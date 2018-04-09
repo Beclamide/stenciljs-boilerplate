@@ -8,7 +8,7 @@ This is a blank starter project for using StencilJS with SASS.
 To start a new project using Stencil, clone this repo to a new directory:
 
 ```bash
-git clone https://github.com/ionic-team/stencil-starter.git my-app
+git clone https://github.com/Beclamide/stenciljs-boilerplate.git my-app
 cd my-app
 git remote rm origin
 ```
