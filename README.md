@@ -45,3 +45,14 @@ To run the unit tests and watch for file changes during development, run:
 ```
 npm run test.watch
 ```
+
+
+## Tasks
+
+This project includes [stencil-tasks](https://github.com/Beclamide/stencil-tasks) to help automate various tasks. You can run them from the command line:
+
+```
+$ npm run task --create my-component
+```
+
+For more information about the available commands, visit the [stencil-tasks](https://github.com/Beclamide/stencil-tasks) repo and check out the README
