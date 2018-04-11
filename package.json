@@ -10,6 +10,7 @@
     "build": "stencil build --prerender",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
     "serve": "stencil-dev-server",
+    "task": "stencil-tasks",
     "start": "npm run dev",
     "test": "jest --no-cache",
     "test.watch": "jest --watch --no-cache"
@@ -25,6 +26,7 @@
     "@stencil/sass": "0.0.3",
     "@stencil/utils": "latest",
     "@types/jest": "^21.1.1",
+    "stencil-tasks": "git+https://github.com/Beclamide/stencil-tasks.git",
     "jest": "^21.2.1"
   },
   "repository": {
