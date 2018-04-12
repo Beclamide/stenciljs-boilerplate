@@ -1,6 +1,6 @@
 # Stencil App Boilerplate
 
-This is a blank starter project for using StencilJS with SASS.
+This is a blank starter project for using [StencilJS](https://stenciljs.com/) with SASS.
 
 
 ## Getting Started
