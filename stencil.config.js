@@ -3,7 +3,11 @@ const sass = require('@stencil/sass');
 
 exports.config = {
   plugins: [
-    sass()
+    sass({
+      injectGlobalPaths: [
+        'node_modules/sass-mq/mq'
+      ]
+    })
   ]
 };
 

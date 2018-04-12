@@ -1,7 +1,13 @@
-@import '../../../../node_modules/sass-mq/mq';
 
 .global-header {
-    background: #FFF;
+  background: #FFF;
   color: black;
   height: 56px;
+
+  h1 {
+    font-size: 3em;
+    @include mq($until: desktop) {
+      font-size: 2em;
+    }
+  }
 }
