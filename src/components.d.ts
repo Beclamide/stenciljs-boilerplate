@@ -18,10 +18,72 @@ declare global {
   interface HTMLAttributes {}
 }
 
+import '@stencil/router';
+
+
+import {
+  GlobalFooter as GlobalFooter
+} from './app/components/global-footer/global-footer';
+
+declare global {
+  interface HTMLGlobalFooterElement extends GlobalFooter, HTMLStencilElement {
+  }
+  var HTMLGlobalFooterElement: {
+    prototype: HTMLGlobalFooterElement;
+    new (): HTMLGlobalFooterElement;
+  };
+  interface HTMLElementTagNameMap {
+    "global-footer": HTMLGlobalFooterElement;
+  }
+  interface ElementTagNameMap {
+    "global-footer": HTMLGlobalFooterElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      "global-footer": JSXElements.GlobalFooterAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface GlobalFooterAttributes extends HTMLAttributes {
+      
+    }
+  }
+}
+
+
+import {
+  GlobalHeader as GlobalHeader
+} from './app/components/global-header/global-header';
+
+declare global {
+  interface HTMLGlobalHeaderElement extends GlobalHeader, HTMLStencilElement {
+  }
+  var HTMLGlobalHeaderElement: {
+    prototype: HTMLGlobalHeaderElement;
+    new (): HTMLGlobalHeaderElement;
+  };
+  interface HTMLElementTagNameMap {
+    "global-header": HTMLGlobalHeaderElement;
+  }
+  interface ElementTagNameMap {
+    "global-header": HTMLGlobalHeaderElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      "global-header": JSXElements.GlobalHeaderAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface GlobalHeaderAttributes extends HTMLAttributes {
+      
+    }
+  }
+}
+
 
 import {
   MyApp as MyApp
-} from './components/my-app/my-app';
+} from './app/my-app';
 
 declare global {
   interface HTMLMyAppElement extends MyApp, HTMLStencilElement {
@@ -43,6 +105,36 @@ declare global {
   }
   namespace JSXElements {
     export interface MyAppAttributes extends HTMLAttributes {
+      
+    }
+  }
+}
+
+
+import {
+  LandingPage as LandingPage
+} from './app/routes/landing-page/landing-page';
+
+declare global {
+  interface HTMLLandingPageElement extends LandingPage, HTMLStencilElement {
+  }
+  var HTMLLandingPageElement: {
+    prototype: HTMLLandingPageElement;
+    new (): HTMLLandingPageElement;
+  };
+  interface HTMLElementTagNameMap {
+    "landing-page": HTMLLandingPageElement;
+  }
+  interface ElementTagNameMap {
+    "landing-page": HTMLLandingPageElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      "landing-page": JSXElements.LandingPageAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface LandingPageAttributes extends HTMLAttributes {
       
     }
   }

@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@stencil/core": "^0.6.1",
-    "@stencil/router": "latest",
+    "@stencil/router": "0.0.28",
     "dotenv": "^5.0.1",
     "sass-mq": "^4.0.2"
   },
