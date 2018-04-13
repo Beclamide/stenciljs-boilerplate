@@ -32,6 +32,16 @@ npm start
 
 Your default web browser will launch and changes to files are watched.
 
+## Tasks
+This project includes [stencil-tasks](https://github.com/Beclamide/stencil-tasks) to help automate various tasks. You can run them from the command line:
+
+```bash
+npm run task --create my-component
+npm run task --route my-route
+```
+
+For more information about the available commands, check out the [README](https://github.com/Beclamide/stencil-tasks/blob/master/README.md)
+
 
 ## Running the tests
 
