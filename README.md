@@ -1,11 +1,14 @@
-# Stencil App Boilerplate
+# StencilJS Boilerplate
 
-This is a blank starter project for using [StencilJS](https://stenciljs.com/) with SASS.
-
+This is a blank starter project for building web applications and sites using [StencilJS](https://stenciljs.com/). It includes SASS compiler and task runner.
 
 ## Getting Started
 
-To start a new project using Stencil, clone this repo to a new directory:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Installing
+
+To start a new project using this boilerplate, clone this repo to a new directory:
 
 ```bash
 git clone https://github.com/Beclamide/stenciljs-boilerplate.git my-app
@@ -17,42 +20,47 @@ and run:
 
 ```bash
 npm install
+```
+
+## Development
+
+To launch the development server run: 
+
+```bash
 npm start
 ```
 
-To view the build, start an HTTP server inside of the `/www` directory.
+Your default web browser will launch and changes to files are watched.
 
-To watch for file changes during development, run:
+
+## Running the tests
+
+Tests are written with [Jest](https://facebook.github.io/jest/)
 
 ```bash
-npm run dev
+npm run test
 ```
 
-To build the app for production, run:
+
+## Building the project
+
+To build the code run: 
 
 ```bash
 npm run build
 ```
 
-To run the unit tests once, run:
 
-```
-npm test
-```
+## Contributing
 
-To run the unit tests and watch for file changes during development, run:
-
-```
-npm run test.watch
-```
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 
-## Tasks
+## Authors
 
-This project includes [stencil-tasks](https://github.com/Beclamide/stencil-tasks) to help automate various tasks. You can run them from the command line:
+* **John Bower** - *Initial work* - [Beclamide](https://github.com/Beclamide)
 
-```
-$ npm run task --create my-component
-```
 
-For more information about the available commands, visit the [stencil-tasks](https://github.com/Beclamide/stencil-tasks) repo and check out the README
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
